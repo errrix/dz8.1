@@ -52,7 +52,7 @@ header img {
   color: #ffffff;
 }
 .jumbotron {
-  min-width: 1170px;
+  min-width: 1700px;
   margin-top: 29px;
   background-color: #709dca;
   min-height: 589px;
@@ -267,6 +267,7 @@ header img {
   margin-left: 30px;
 }
 .about-us {
+  min-width: 1700px;
   min-height: 623px;
   background-color: #ffc155;
 }
@@ -306,6 +307,7 @@ header img {
   border: 1px solid #e7ad48;
 }
 .price {
+  min-width: 1700px;
   min-height: 898px;
   text-align: center;
   padding-top: 137px;
@@ -492,6 +494,7 @@ header img {
   left: 230px;
 }
 .clients {
+  min-width: 1700px;
   box-sizing: border-box;
   min-height: 908px;
   text-align: center;
@@ -703,6 +706,7 @@ footer a:hover {
   color: #ffc155;
 }
 .copyright {
+  min-width: 1700px;
   margin-top: 53px;
   text-align: center;
   box-sizing: border-box;
