@@ -52,7 +52,7 @@ header img {
   color: #ffffff;
 }
 .jumbotron {
-  min-width: 1700px;
+  min-width: 1170px;
   margin-top: 29px;
   background-color: #709dca;
   min-height: 589px;
@@ -267,23 +267,23 @@ header img {
   margin-left: 30px;
 }
 .about-us {
-  min-width: 1700px;
-  min-height: 623px;
-  background-color: #ffc155;
-}
-.about-us .container-big {
-  width: 1700px;
   margin: 0 auto;
+  background-color: #ffc155;
+  min-height: 623px;
 }
-.about-us .container-big img {
+.about-us div:first-child {
+  min-height: 623px;
+  float: left;
+  width: 50%;
+  background: url(../img/table.jpg) center no-repeat;
+}
+.about-us div:last-child {
+  box-sizing: border-box;
+  padding-left: 80px;
+  width: 50%;
   float: left;
 }
-.about-us .container-big div {
-  margin-left: 80px;
-  width: 584px;
-  float: left;
-}
-.about-us .container-big div h3 {
+.about-us div:last-child h3 {
   margin-top: 164px;
   color: #ffffff;
   font-family: Gotham;
@@ -292,7 +292,7 @@ header img {
   line-height: 22px;
   text-transform: uppercase;
 }
-.about-us .container-big div p {
+.about-us div:last-child p {
   max-width: 505px;
   margin-top: 28px;
   color: #ffffff;
@@ -301,12 +301,17 @@ header img {
   font-weight: 400;
   line-height: 24px;
 }
-.about-us .container-big div .button {
+.about-us div:last-child .button {
   margin-top: 33px;
   border: 1px solid #e7ad48;
 }
+.about-us::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .price {
-  min-width: 1700px;
+  min-width: 1170px;
   min-height: 898px;
   text-align: center;
   padding-top: 137px;
@@ -493,7 +498,7 @@ header img {
   left: 230px;
 }
 .clients {
-  min-width: 1700px;
+  min-width: 1170px;
   box-sizing: border-box;
   min-height: 908px;
   text-align: center;
@@ -705,7 +710,7 @@ footer a:hover {
   color: #ffc155;
 }
 .copyright {
-  min-width: 1700px;
+  min-width: 1170px;
   margin-top: 53px;
   text-align: center;
   box-sizing: border-box;
