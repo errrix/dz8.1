@@ -270,6 +270,7 @@ header img {
   margin: 0 auto;
   background-color: #ffc155;
   min-height: 623px;
+  min-width: 1170px;
 }
 .about-us .big-container {
   min-width: 1700px;
