@@ -271,19 +271,23 @@ header img {
   background-color: #ffc155;
   min-height: 623px;
 }
-.about-us div:first-child {
+.about-us .big-container {
+  min-width: 1700px;
+}
+.about-us .big-container div:first-child {
+  background-size: contain;
   min-height: 623px;
   float: left;
   width: 50%;
   background: url(../img/table.jpg) center no-repeat;
 }
-.about-us div:last-child {
+.about-us .big-container div:last-child {
   box-sizing: border-box;
   padding-left: 80px;
   width: 50%;
   float: left;
 }
-.about-us div:last-child h3 {
+.about-us .big-container div:last-child h3 {
   margin-top: 164px;
   color: #ffffff;
   font-family: Gotham;
@@ -292,7 +296,7 @@ header img {
   line-height: 22px;
   text-transform: uppercase;
 }
-.about-us div:last-child p {
+.about-us .big-container div:last-child p {
   max-width: 505px;
   margin-top: 28px;
   color: #ffffff;
@@ -301,7 +305,7 @@ header img {
   font-weight: 400;
   line-height: 24px;
 }
-.about-us div:last-child .button {
+.about-us .big-container div:last-child .button {
   margin-top: 33px;
   border: 1px solid #e7ad48;
 }
