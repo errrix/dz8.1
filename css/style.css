@@ -269,26 +269,19 @@ header img {
 .about-us {
   margin: 0 auto;
   background-color: #ffc155;
-  min-height: 623px;
   min-width: 1170px;
 }
-.about-us .big-container {
-  min-width: 1700px;
-}
-.about-us .big-container div:first-child {
-  background-size: contain;
-  min-height: 623px;
+.about-us img {
   float: left;
   width: 50%;
-  background: url(../img/table.jpg) center no-repeat;
 }
-.about-us .big-container div:last-child {
+.about-us div {
   box-sizing: border-box;
   padding-left: 80px;
   width: 50%;
-  float: left;
+  display: inline-block;
 }
-.about-us .big-container div:last-child h3 {
+.about-us div h3 {
   margin-top: 164px;
   color: #ffffff;
   font-family: Gotham;
@@ -297,7 +290,7 @@ header img {
   line-height: 22px;
   text-transform: uppercase;
 }
-.about-us .big-container div:last-child p {
+.about-us div p {
   max-width: 505px;
   margin-top: 28px;
   color: #ffffff;
@@ -306,7 +299,7 @@ header img {
   font-weight: 400;
   line-height: 24px;
 }
-.about-us .big-container div:last-child .button {
+.about-us div .button {
   margin-top: 33px;
   border: 1px solid #e7ad48;
 }
