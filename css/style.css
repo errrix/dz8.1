@@ -14,6 +14,26 @@
   font-family: "Lato";
   src: url(../fonts/LatoRegular.woff);
 }
+@font-face {
+  font-family: "Gotham";
+  src: url(../fonts/GothaProReg.otf);
+}
+.caption h2 {
+  color: #394b50;
+  line-height: 22px;
+  font-family: "Gotham";
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.caption p {
+  margin-top: 13px;
+  color: #394b50;
+  line-height: 22px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -40,7 +60,7 @@ header img {
 .menu ul li a {
   padding: 12px 21px;
   text-decoration: none;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -62,7 +82,7 @@ header img {
 }
 .jumbotron h1 {
   padding-top: 110px;
-  font-family: Gotham;
+  font-family: "Gotham";
   font-size: 35px;
   font-weight: 900;
   text-transform: uppercase;
@@ -169,21 +189,6 @@ header img {
   text-align: center;
   margin-top: 103px;
 }
-.services h2 {
-  color: #394b50;
-  line-height: 22px;
-  font-family: Gotham;
-  font-size: 30px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-.services p {
-  color: #394b50;
-  line-height: 22px;
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: 400;
-}
 .services::after {
   content: "";
   display: block;
@@ -202,7 +207,7 @@ header img {
   vertical-align: top;
   display: inline-block;
   color: #394b50;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
@@ -270,36 +275,32 @@ header img {
   margin: 0 auto;
   background-color: #ffc155;
   min-width: 1170px;
+  display: flex;
+  align-items: center;
 }
-.about-us img {
-  float: left;
+.about-us div:first-child {
   width: 50%;
+  display: flex;
+  justify-content: flex-end;
 }
-.about-us div {
-  box-sizing: border-box;
+.about-us div:first-child img {
+  width: 850px;
+}
+.about-us div:last-child {
   padding-left: 80px;
   width: 50%;
-  display: inline-block;
 }
-.about-us div h3 {
-  margin-top: 164px;
+.about-us div:last-child h2 {
   color: #ffffff;
-  font-family: Gotham;
-  font-size: 30px;
-  font-weight: 900;
-  line-height: 22px;
-  text-transform: uppercase;
 }
-.about-us div p {
+.about-us div:last-child p {
   max-width: 505px;
   margin-top: 28px;
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 13px;
-  font-weight: 400;
   line-height: 24px;
 }
-.about-us div .button {
+.about-us div:last-child .button {
   margin-top: 33px;
   border: 1px solid #e7ad48;
 }
@@ -315,18 +316,9 @@ header img {
   padding-top: 137px;
   background-color: #e7edf3;
 }
-.price h2 {
-  line-height: 22px;
-  color: #394b50;
-  font-family: Gotham;
-  font-size: 30px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
 .price p {
-  line-height: 22px;
   color: #75888d;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 18px;
   font-weight: 300;
 }
@@ -344,7 +336,7 @@ header img {
 .price-block div h3 {
   margin-top: 56px;
   color: #818b95;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 25px;
   font-weight: 300;
   line-height: 22px;
@@ -352,7 +344,7 @@ header img {
 }
 .price-block div .per-month {
   margin-top: 15px;
-  font-family: Lato;
+  font-family: "Lato";
   line-height: 60px;
   color: #ffbb42;
   font-size: 60px;
@@ -379,7 +371,7 @@ header img {
   width: 329px;
   border-top: 1px solid #e2e9f0;
   color: #b5bbc1;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -421,21 +413,10 @@ header img {
   padding-top: 155px;
   text-align: center;
 }
-.steps h2 {
-  color: #394b50;
-  line-height: 22px;
-  font-family: Gotham;
-  font-size: 30px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
 .steps p {
-  margin-top: 13px;
-  color: #394b50;
-  line-height: 22px;
-  font-family: Lato;
   font-size: 18px;
   font-weight: 300;
+  font-family: "Lato";
 }
 .steps .button {
   margin-top: 91px;
@@ -448,7 +429,7 @@ header img {
 }
 .step-block div h3 {
   color: #394b50;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 20px;
   font-weight: 700;
   line-height: 22px;
@@ -505,19 +486,9 @@ header img {
 }
 .clients h2 {
   color: #ffffff;
-  line-height: 22px;
-  font-family: Gotham;
-  font-size: 30px;
-  font-weight: 900;
-  text-transform: uppercase;
 }
 .clients p {
-  margin-top: 13px;
   color: #ffffff;
-  line-height: 22px;
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: 400;
 }
 .clients-block {
   margin-top: 58px;
@@ -548,7 +519,7 @@ header img {
 }
 .clients-block div p:nth-child(3) {
   margin: 29px 0 0 182px;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -580,28 +551,17 @@ header img {
   line-height: 22px;
   margin-left: 20px;
 }
+.clients-block::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .newsletter {
   border-bottom: 1px solid #e3e7ec;
   box-sizing: border-box;
   min-height: 945px;
   padding-top: 154px;
   text-align: center;
-}
-.newsletter h2 {
-  color: #394b50;
-  line-height: 22px;
-  font-family: Gotham;
-  font-size: 30px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-.newsletter p {
-  margin-top: 13px;
-  color: #394b50;
-  line-height: 22px;
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: 300;
 }
 .newsletter .input-block {
   margin-top: 38px;
@@ -640,7 +600,7 @@ header img {
 .map h3 {
   padding-top: 68px;
   color: #ffffff;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -675,14 +635,14 @@ footer .menu {
 }
 footer .menu ul li a {
   color: #394b50;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 13px;
 }
 footer p {
   margin-top: 29px;
   margin-bottom: 25px;
   color: #394b50;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 23px;
   font-weight: 400;
   line-height: 24px;
